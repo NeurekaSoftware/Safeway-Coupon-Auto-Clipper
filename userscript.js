@@ -15,6 +15,7 @@
 (function() {
     'use strict';
 
+    const STARTUP_DELAY      = 5000;
     const ACTION_DELAY       = 1000;
     const DISPLAY_STATISTICS = true;
 
@@ -24,18 +25,22 @@
     let couponsClipped       = false;
     let statisticsSent       = false;
 
-    setInterval(function() {
-        if(!couponsLoaded) {
-            loadCoupons();
-        } else if(!couponsClipped) {
-            clipCoupons();
-        }
-        else if(DISPLAY_STATISTICS && !statisticsSent) {
-            alert(`Safeway Coupon Auto-clipper\n\nCoupons Clipped: ${totalCouponsClipped + totalCouponsExpired}`);
-            statisticsSent = true;
-        }
+    setTimeout(function() {
 
-    }, ACTION_DELAY)
+        setInterval(function() {
+            if(!couponsLoaded) {
+                loadCoupons();
+            } else if(!couponsClipped) {
+                clipCoupons();
+            }
+            else if(DISPLAY_STATISTICS && !statisticsSent) {
+                alert(`Safeway Coupon Auto-clipper\n\nCoupons Clipped: ${totalCouponsClipped + totalCouponsExpired}`);
+                statisticsSent = true;
+            }
+    
+        }, ACTION_DELAY);
+
+    }, STARTUP_DELAY);
 
     function loadCoupons() {
         let loadMoreButton = document.querySelector('.btn.load-more');
