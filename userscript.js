@@ -4,7 +4,7 @@
 // @namespace    https://github.com/douglasparker
 // @version      1.0.0
 // @description  Clip all coupons for your Safeway Just For U.
-// @author       Neureka
+// @author       Douglas Parker
 // @downloadURL  https://raw.githubusercontent.com/douglasparker/safeway-coupon-auto-clipper/main/userscript.js
 // @supportURL   https://github.com/douglasparker/safeway-coupon-auto-clipper/issues
 // @match        https://www.safeway.com/foru/coupons-deals.html
