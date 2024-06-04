@@ -1,2 +1,3 @@
-# safeway-coupon-auto-clipper
-Clip all coupons for Safeway Just For U.
+# Safeway Coupon Auto-clipper
+
+Clip all coupons for your Safeway Just For U.
