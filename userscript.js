@@ -3,7 +3,7 @@
 // @icon         https://www.safeway.com/favicon.ico
 // @namespace    https://github.com/douglasparker/safeway-coupon-auto-clipper
 // @version      1.0.1
-// @description  Clip all coupons for your Safeway Just For U.
+// @description  A Violentmonkey userscript that will automatically clip your Just For U coupons for Safeway.
 // @author       Douglas Parker
 // @downloadURL  https://raw.githubusercontent.com/douglasparker/safeway-coupon-auto-clipper/main/userscript.js
 // @supportURL   https://github.com/douglasparker/safeway-coupon-auto-clipper/issues
