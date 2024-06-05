@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Safeway Coupon Auto-clipper
 // @icon         https://www.safeway.com/favicon.ico
-// @namespace    https://github.com/douglasparker
+// @namespace    https://github.com/douglasparker/safeway-coupon-auto-clipper
 // @version      1.0.1
 // @description  Clip all coupons for your Safeway Just For U.
 // @author       Douglas Parker
