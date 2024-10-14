@@ -17,13 +17,8 @@ I highly recommend that you use [Violentmonkey](https://violentmonkey.github.io/
 
 ### Install Safeway Coupon Auto-clipper
 
-1) Click the Violentmonkey icon in your browser and then click the cog wheel to open the Violentmonkey dashboard.
-
-2) Click the `+` icon in the top left of your screen and click `Install from URL`.
-
-3) Paste in the following URL and you're ready to go!
-
-`https://raw.githubusercontent.com/douglasparker/safeway-coupon-auto-clipper/main/userscript.js`
+1) Open the Safeway Coupon Auto-clipper [installer](https://raw.githubusercontent.com/NeurekaSoftware/Safeway-Coupon-Auto-Clipper/main/auto-clipper.user.js).
+2) Click install on the page that opens, or press `Ctrl` + `Enter`.
 
 ### Start Saving!
 
